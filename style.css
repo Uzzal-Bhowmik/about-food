@@ -30,7 +30,7 @@ section a:hover{
 .welcome-section h1{
     font-size: 34px;
 }
-.welcome-section span{
+section span{
     color: tomato;
 }
 .position-fix{
@@ -44,6 +44,7 @@ section a:hover{
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .about-me-section img{
     width: 30%;
@@ -83,4 +84,21 @@ center h4{
 .recipes-div-fix{
     padding-left: 18px;
     width: 90%;
+}
+.food-routine{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    height: 520px;
+}
+.food-routine img{
+    width: 100%;
+    padding-left: 70px;
+}
+.food-routine ul{
+    list-style-image: linear-gradient(pink, hotpink);
+}
+.food-routine-div-fix{
+    margin-top: 150px;
 }
