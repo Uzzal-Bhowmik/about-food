@@ -53,11 +53,12 @@ section span{
     height: 87%;
     border: 2px solid skyblue;
     border-radius: 10px;
-    box-shadow: 10px 10px 35px 20px gainsboro;
+    box-shadow: 10px 10px 50px 20px gainsboro;
 }
 .about-me-section h1,p{
     padding-right: 50px;
 }
+
 center h4{
     width: 60%;
 }
@@ -106,6 +107,14 @@ center h4{
 }
 .food-routine-div-fix{
     margin-top: 150px;
+}
+#food-routine-quote{
+    display: block;
+    margin-left: 350px;
+    margin-top: 8px;
+}
+.capitalize{
+    text-transform: capitalize;
 }
 footer{
     background-color: wheat;
