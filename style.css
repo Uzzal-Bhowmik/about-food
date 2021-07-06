@@ -44,11 +44,16 @@ section span{
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 490px;
 
 }
 .about-me-section img{
-    width: 30%;
-    padding-left: 220px;
+    width: 45%;
+    margin-left: 220px;
+    height: 87%;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 35px 20px gainsboro;
 }
 .about-me-section h1,p{
     padding-right: 50px;
