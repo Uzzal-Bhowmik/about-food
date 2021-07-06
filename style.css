@@ -102,3 +102,10 @@ center h4{
 .food-routine-div-fix{
     margin-top: 150px;
 }
+footer{
+    background-color: wheat;
+    padding: 10px 10px 10px 10px;
+}
+footer span{
+    color: brown;
+}
