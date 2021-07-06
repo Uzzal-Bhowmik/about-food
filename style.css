@@ -52,8 +52,11 @@ section a:hover{
 .about-me-section h1,p{
     padding-right: 50px;
 }
-center p{
+center h4{
     width: 60%;
+}
+.recipes{
+    margin-top: 50px;
 }
 .recipes div{
     width: 25.333333%;
@@ -62,6 +65,7 @@ center p{
     border-radius: 18px;
     box-shadow: 10px 10px 40px 20px gray;
     height: 520px;
+    border: 2px solid salmon;
 
 }
 .recipes div img{
@@ -71,6 +75,10 @@ center p{
     margin-left: 16px;
     margin-top: 10px;
     border-radius: 10px;
+    
+}
+.recipes div img:hover{
+    box-shadow: 10px 10px 30px 10px tomato;
 }
 .recipes-div-fix{
     padding-left: 18px;
