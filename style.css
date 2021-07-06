@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+section{
+    display: flex;
+}
+section a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(tomato, orange);
+    color: white;
+    margin-top: 15px;
+
+}
+section a:hover{
+    color: navy;
+    box-shadow: 10px 10px 40px 5px hotpink;
+}
+.welcome-section{
+    padding-left: 130px;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.welcome-section h1{
+    font-size: 34px;
+}
+.welcome-section span{
+    color: tomato;
+}
+.position-fix{
+    width: 50%;
+    margin-top: 50px;
+}
+.welcome-section img{
+    width: 70%;
+}
+.about-me-section{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-me-section img{
+    width: 30%;
+    padding-left: 220px;
+}
+.about-me-section h1,p{
+    padding-right: 50px;
+}
+center p{
+    width: 60%;
+}
+.recipes div{
+    width: 25.333333%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 18px;
+    box-shadow: 10px 10px 40px 20px gray;
+    height: 520px;
+
+}
+.recipes div img{
+    display: inline-block;
+    width: 90%;
+    height: 35%;
+    margin-left: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.recipes-div-fix{
+    padding-left: 18px;
+    width: 90%;
+}
